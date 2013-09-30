@@ -1,11 +1,11 @@
-#include "custombutton1.h"
+#include "CSSButton.h"
 #include <QPixmap>
 #include <QBitmap>
 #include <QDebug>
 #include <QPainter>
 #include <QImage>
 
-CustomButton1::CustomButton1(QWidget *parent) :
+CSSButton::CSSButton(QWidget *parent) :
     QPushButton(parent)
 {
     QPixmap pixmap(":button/button");

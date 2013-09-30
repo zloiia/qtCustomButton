@@ -1,13 +1,13 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "custombutton1.h"
+#include "CSSButton.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    CustomButton1 *b = new CustomButton1(this);
+    CSSButton *b = new CSSButton(this);
     b->setText(tr("Press me!"));
     ui->verticalLayout->addWidget( b );
 }

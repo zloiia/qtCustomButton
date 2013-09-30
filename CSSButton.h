@@ -3,11 +3,11 @@
 
 #include <QPushButton>
 
-class CustomButton1 : public QPushButton
+class CSSButton : public QPushButton
 {
     Q_OBJECT
 public:
-    explicit CustomButton1(QWidget *parent = 0);
+    explicit CSSButton(QWidget *parent = 0);
 
 
 signals:
