@@ -10,7 +10,7 @@ CSSButton::CSSButton(QWidget *parent) :
 {
     QPixmap pixmap(":button/button");
     setMask( pixmap.mask() );
-    setMaximumSize( pixmap.size() );
+    setMinimumSize( pixmap.size() );
     setStyleSheet("QPushButton{background:url(:button/button);border:0px;}"
                   "QPushButton:hover{background:url(:button/hover);border:0px}"
                   "QPushButton:pressed{background:url(:button/clicked); position: relative;top: 1px; left: 1px;}");
