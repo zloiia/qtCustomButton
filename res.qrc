@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/button">
+        <file alias="button">img/button.png</file>
+        <file alias="clicked">img/button_clicked.png</file>
+        <file alias="hover">img/button_hover.png</file>
+    </qresource>
+</RCC>
