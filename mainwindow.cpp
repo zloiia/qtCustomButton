@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     CSSButton *b = new CSSButton(this);
-    //b->setText(tr("Press me!"));
+    b->setText(tr("Press me!"));
     ui->verticalLayout->addWidget( b );
 }
 
